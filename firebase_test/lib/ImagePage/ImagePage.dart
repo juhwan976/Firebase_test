@@ -175,7 +175,7 @@ class _ImagePageState extends State<ImagePage> {
                                 ],
                               );
                             },
-                          ) as Future<bool>);
+                          ));
 
                           /// Dialog 에서 선택한 값이 '예' 일 경우
                           /// 이미지 목록을 새로고침
